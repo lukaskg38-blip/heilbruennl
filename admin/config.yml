@@ -1,0 +1,65 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+locale: "de"
+
+collections:
+  - name: "settings"
+    label: "Website-Inhalte"
+    files:
+      - file: "data/content.json"
+        label: "Kontakt, Öffnungszeiten, Speisekarte & Zimmer"
+        name: "content"
+        fields:
+          - label: "Kontakt"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Straße", name: "street", widget: "string" }
+              - { label: "PLZ + Ort (kurz)", name: "cityLine", widget: "string" }
+              - { label: "PLZ + Ort (lang)", name: "cityLineFull", widget: "string" }
+              - { label: "Telefon (Anzeigetext)", name: "phone", widget: "string" }
+              - { label: "Telefon-Link", name: "phoneHref", widget: "string", hint: "Format: tel:+49XXXXXXXXX (keine Leerzeichen)" }
+              - { label: "E-Mail", name: "email", widget: "string" }
+              - { label: "E-Mail-Link", name: "emailHref", widget: "string", hint: "Format: mailto:adresse@domain.de" }
+          - label: "Öffnungszeiten"
+            name: "hours"
+            widget: "object"
+            fields:
+              - { label: "Ruhetag (kurz)", name: "closed", widget: "string" }
+              - { label: "Ruhetag-Zeile", name: "closedLine", widget: "string" }
+              - { label: "Öffnungszeile (kurz)", name: "openLine", widget: "string" }
+              - { label: "Öffnungszeile (lang)", name: "openFull", widget: "string" }
+              - { label: "Kurzfassung (eine Zeile)", name: "short", widget: "string" }
+          - label: "Speisekarte"
+            name: "menu"
+            widget: "object"
+            fields:
+              - { label: "Hinweistext unter der Karte", name: "note", widget: "text" }
+              - label: "Kategorien"
+                name: "categories"
+                widget: "list"
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Titel der Kategorie", name: "title", widget: "string" }
+                  - label: "Gerichte"
+                    name: "items"
+                    widget: "list"
+                    summary: "{{fields.name}}"
+                    fields:
+                      - { label: "Name des Gerichts", name: "name", widget: "string" }
+                      - { label: "Beschreibung", name: "desc", widget: "string", required: false }
+          - label: "Zimmer"
+            name: "rooms"
+            widget: "list"
+            summary: "{{fields.name}} – {{fields.tag}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Kategorie-Tag", name: "tag", widget: "string" }
+              - { label: "Bild-Beschriftung", name: "caption", widget: "string" }
+              - { label: "Beschreibung", name: "desc", widget: "text" }
+              - { label: "Ausstattung (Stichpunkte)", name: "features", widget: "list" }

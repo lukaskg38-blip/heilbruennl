@@ -1,0 +1,94 @@
+{
+  "contact": {
+    "street": "Heilbrünnlstraße 2",
+    "cityLine": "93426 Roding",
+    "cityLineFull": "93426 Roding, Bayern",
+    "phone": "09461 9147463",
+    "phoneHref": "tel:+4994619147463",
+    "email": "info@heilbruennl.de",
+    "emailHref": "mailto:info@heilbruennl.de"
+  },
+  "hours": {
+    "closed": "Ruhetag",
+    "closedLine": "Montag Ruhetag",
+    "openLine": "Di – So: 10:00 – 22:00",
+    "openFull": "10:00 – 22:00 Uhr",
+    "short": "Di–So 10:00–22:00 · Montag Ruhetag"
+  },
+  "menu": {
+    "note": "Alle Gerichte sind ein beispielhafter Auszug unseres Angebots. Saisonale Karte, Preise und tagesaktuelle Empfehlungen erfahren Sie telefonisch oder direkt bei uns im Haus.",
+    "categories": [
+      {
+        "title": "Vesper & Brotzeit",
+        "items": [
+          { "name": "Bayerische Brotzeit", "desc": "Wurst- und Käseauswahl, Brot, Radi" },
+          { "name": "Obatzda", "desc": "Mit Brezn und Röstzwiebeln" },
+          { "name": "Wurstsalat", "desc": "Mit Zwiebeln und Essig-Öl" }
+        ]
+      },
+      {
+        "title": "Suppen & Salate",
+        "items": [
+          { "name": "Rindsuppe mit Griesnockerl", "desc": "Klassisch, hausgemacht" },
+          { "name": "Leberknödelsuppe", "desc": "Kräftige Brühe, feine Knödel" },
+          { "name": "Gemischter Salat der Saison", "desc": "Als Beilage oder Hauptgericht" }
+        ]
+      },
+      {
+        "title": "Bayerische Klassiker",
+        "items": [
+          { "name": "Schweinsbraten mit Kloß", "desc": "Mit dunkler Sauce & Krautsalat" },
+          { "name": "Zwiebelrostbraten", "desc": "Mit Bratkartoffeln" },
+          { "name": "Schnitzel „Wiener Art“", "desc": "Mit Pommes oder Kartoffelsalat" },
+          { "name": "Kasnockn", "desc": "Mit Röstzwiebeln & Salat" }
+        ]
+      },
+      {
+        "title": "Fisch & Vegetarisches",
+        "items": [
+          { "name": "Forelle „Müllerin Art“", "desc": "Mit Petersilienkartoffeln" },
+          { "name": "Kässpatzn", "desc": "Mit Röstzwiebeln & Salat" },
+          { "name": "Gemüseteller der Saison", "desc": "Je nach Angebot" }
+        ]
+      },
+      {
+        "title": "Kaffee & Kuchen",
+        "items": [
+          { "name": "Kaiserschmarrn", "desc": "Mit Apfelmus, hausgemacht" },
+          { "name": "Apfelstrudel", "desc": "Warm, mit Vanillesauce" },
+          { "name": "Torte der Saison", "desc": "Wechselnde Auswahl" }
+        ]
+      },
+      {
+        "title": "Für die Kleinen",
+        "items": [
+          { "name": "Kinderschnitzel mit Pommes", "desc": "Klein, aber fein" },
+          { "name": "Nudeln mit Sauce", "desc": "Tomate oder Butter" }
+        ]
+      }
+    ]
+  },
+  "rooms": [
+    {
+      "name": "Doppelzimmer",
+      "tag": "Aussicht",
+      "caption": "Regental-Blick",
+      "desc": "Unser meistgefragtes Zimmer: helle Einrichtung und ein Panoramablick über das Regental und die Dächer von Roding.",
+      "features": ["ca. 30 m²", "Nichtraucher", "Ruhige Lage", "Eigenes Bad"]
+    },
+    {
+      "name": "Doppelzimmer",
+      "tag": "Ruhe",
+      "caption": "Waldseite",
+      "desc": "Zur Waldseite hin gelegen – ideal für einen erholsamen Zwischenstopp nach der Wanderung.",
+      "features": ["ca. 28 m²", "Nichtraucher", "Familienfreundlich", "Eigenes Bad"]
+    },
+    {
+      "name": "Mehrbettzimmer",
+      "tag": "Pilgergruppen",
+      "caption": "Für Gruppen",
+      "desc": "Praktisch für Wallfahrtsgruppen, Wanderer und Radfahrer im Regental – auf Anfrage auch mehrere Zimmer als Kontingent.",
+      "features": ["Auf Anfrage", "Gruppenpreise", "Flexible Belegung"]
+    }
+  ]
+}
