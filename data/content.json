@@ -1,6 +1,6 @@
 {
   "contact": {
-    "street": "Heilbrünnlstraße 2",
+    "street": "Heilbrünnl 2",
     "cityLine": "93426 Roding",
     "cityLineFull": "93426 Roding, Bayern",
     "phone": "09461 9147463",
@@ -11,84 +11,121 @@
   "hours": {
     "closed": "Ruhetag",
     "closedLine": "Montag Ruhetag",
-    "openLine": "Di – So: 10:00 – 22:00",
-    "openFull": "10:00 – 22:00 Uhr",
-    "short": "Di–So 10:00–22:00 · Montag Ruhetag"
+    "openLine": "Di – So: ab 10:00 Uhr",
+    "openFull": "ab 10:00 Uhr durchgehend (bis ca. 22:00 Uhr)",
+    "short": "Di–So ab 10:00 Uhr durchgehend · Montag Ruhetag"
   },
   "menu": {
-    "note": "Alle Gerichte sind ein beispielhafter Auszug unseres Angebots. Saisonale Karte, Preise und tagesaktuelle Empfehlungen erfahren Sie telefonisch oder direkt bei uns im Haus.",
+    "note": "Auszug aus unserer aktuellen Karte (Stand: Saison 2026). Das Tagesgericht wechselt wöchentlich – fragen Sie einfach danach. Vollständige Karte inkl. Allergenkennzeichnung im Haus.",
     "categories": [
       {
-        "title": "Vesper & Brotzeit",
+        "title": "Suppen",
         "items": [
-          { "name": "Bayerische Brotzeit", "desc": "Wurst- und Käseauswahl, Brot, Radi" },
-          { "name": "Obatzda", "desc": "Mit Brezn und Röstzwiebeln" },
-          { "name": "Wurstsalat", "desc": "Mit Zwiebeln und Essig-Öl" }
+          { "name": "Tagessuppe", "desc": "4,00 €" },
+          { "name": "Leberspätzlesuppe", "desc": "Sonntags · 4,00 €" }
         ]
       },
       {
-        "title": "Suppen & Salate",
+        "title": "Vom Grill",
         "items": [
-          { "name": "Rindsuppe mit Griesnockerl", "desc": "Klassisch, hausgemacht" },
-          { "name": "Leberknödelsuppe", "desc": "Kräftige Brühe, feine Knödel" },
-          { "name": "Gemischter Salat der Saison", "desc": "Als Beilage oder Hauptgericht" }
+          { "name": "Gegrillter Zwiebelrostbraten", "desc": "Deutsche Färse, medium, mit Kroketten & Salatbukett · 25,00 €" },
+          { "name": "220 g Rumpsteak", "desc": "Medium gegrillt, mit Pommes & Kräuterbutter · 28,00 €" },
+          { "name": "Lachsforelle", "desc": "In Mandelbutter mit Petersilienkartoffeln · 25,00 €" }
         ]
       },
       {
-        "title": "Bayerische Klassiker",
+        "title": "Schnitzel & mehr",
         "items": [
-          { "name": "Schweinsbraten mit Kloß", "desc": "Mit dunkler Sauce & Krautsalat" },
-          { "name": "Zwiebelrostbraten", "desc": "Mit Bratkartoffeln" },
-          { "name": "Schnitzel „Wiener Art“", "desc": "Mit Pommes oder Kartoffelsalat" },
-          { "name": "Kasnockn", "desc": "Mit Röstzwiebeln & Salat" }
+          { "name": "Schnitzel „Wiener Art“", "desc": "Vom Schweinerücken, mit Pommes oder Kartoffel-Gurken-Salat · 14,00 €" },
+          { "name": "Sellerie-Schnitzel", "desc": "Hausgemacht, mit Sesampanade (vegetarisch) · 13,00 €" },
+          { "name": "Currywurst", "desc": "Mit hausgemachter Soße und Pommes · 11,00 €" }
         ]
       },
       {
-        "title": "Fisch & Vegetarisches",
+        "title": "Flammkuchen",
         "items": [
-          { "name": "Forelle „Müllerin Art“", "desc": "Mit Petersilienkartoffeln" },
-          { "name": "Kässpatzn", "desc": "Mit Röstzwiebeln & Salat" },
-          { "name": "Gemüseteller der Saison", "desc": "Je nach Angebot" }
+          { "name": "Traditionell", "desc": "Sauerrahm, Speck, Zwiebel · 11,00 €" },
+          { "name": "Rustikal", "desc": "Sauerrahm, Käse, Salami, Schinken · 12,50 €" },
+          { "name": "Vegetarisch", "desc": "Sauerrahm, Käse, frisches Gemüse · 12,50 €" },
+          { "name": "Lachs", "desc": "Meerrettichcreme, Räucherlachs, Lauch · 14,50 €" }
         ]
       },
       {
-        "title": "Kaffee & Kuchen",
+        "title": "Wurstsalate & Vesper",
         "items": [
-          { "name": "Kaiserschmarrn", "desc": "Mit Apfelmus, hausgemacht" },
-          { "name": "Apfelstrudel", "desc": "Warm, mit Vanillesauce" },
-          { "name": "Torte der Saison", "desc": "Wechselnde Auswahl" }
+          { "name": "Bayerischer Wurstsalat", "desc": "Regensburger Knacker, rote Zwiebeln, Essiggurken · 11,00 €" },
+          { "name": "Schweizer Wurstsalat", "desc": "Mit Emmentaler · 11,50 €" },
+          { "name": "Hausgemachte Tellersulz", "desc": "Mit Schwarzbrot 11,50 € · mit Bratkartoffeln 14,50 €" }
         ]
       },
       {
         "title": "Für die Kleinen",
         "items": [
-          { "name": "Kinderschnitzel mit Pommes", "desc": "Klein, aber fein" },
-          { "name": "Nudeln mit Sauce", "desc": "Tomate oder Butter" }
+          { "name": "Kleines Schnitzel mit Pommes", "desc": "9,00 €" },
+          { "name": "Nuggets mit Pommes", "desc": "8,00 €" },
+          { "name": "Portion Pommes", "desc": "5,00 €" }
         ]
       }
-    ]
+    ],
+    "sunday": {
+      "title": "Sonntags: bayerischer Braten-Sonntag",
+      "note": "Jeden Sonntag zusätzlich auf der Karte – die klassische bayerische Sonntagsküche.",
+      "items": [
+        { "name": "Ofenfrischer Schweinebraten", "desc": "Mit Reiberknödel und Sauerkraut · 14,00 €" },
+        { "name": "Gemischter Braten", "desc": "Mit Reiberknödel, Semmelknödel und Sauerkraut · 15,00 €" },
+        { "name": "Kalbsrahmbraten", "desc": "Mit Semmelknödel und Salat · 17,00 €" },
+        { "name": "Hausgemachte Waffeln", "desc": "Mit frischen Erdbeeren und Vanilleeis · 8,90 €" }
+      ]
+    },
+    "drinks": {
+      "title": "Getränkekarte",
+      "groups": [
+        {
+          "label": "Alkoholfreie Getränke",
+          "items": [
+            { "name": "Cola, Cola light, Spezi", "desc": "0,2l 3,30 € · 0,5l 4,30 €" },
+            { "name": "Limonaden & Saftschorlen", "desc": "0,2l ab 2,80 € · 0,5l ab 3,80 €" },
+            { "name": "Wasser (Grapos Quell)", "desc": "0,2l 2,50 € · 0,5l 3,50 €" }
+          ]
+        },
+        {
+          "label": "Bier vom Fass (Jacob Bräu)",
+          "items": [
+            { "name": "Jacob Hell, Radler, Pils", "desc": "0,5l 3,80 €" },
+            { "name": "Jacob Weizen (hell, leicht, dunkel, alkoholfrei)", "desc": "0,5l 4,20 €" }
+          ]
+        },
+        {
+          "label": "Wein & Aperitif",
+          "items": [
+            { "name": "Silvaner, Bacchus, Merlot (0,2l)", "desc": "6,90 €" },
+            { "name": "Aperol Spritz, Hugo, Weinschorle", "desc": "6,90 €" }
+          ]
+        },
+        {
+          "label": "Heißgetränke",
+          "items": [
+            { "name": "Kaffee, Espresso, Cappuccino, Latte Macchiato", "desc": "ab 3,00 €" },
+            { "name": "Tee verschiedene Sorten", "desc": "3,00 €" }
+          ]
+        }
+      ]
+    }
   },
   "rooms": [
     {
       "name": "Doppelzimmer",
-      "tag": "Aussicht",
-      "caption": "Regental-Blick",
-      "desc": "Unser meistgefragtes Zimmer: helle Einrichtung und ein Panoramablick über das Regental und die Dächer von Roding.",
-      "features": ["ca. 30 m²", "Nichtraucher", "Ruhige Lage", "Eigenes Bad"]
+      "tag": "Übernachtung",
+      "caption": "Doppelzimmer",
+      "desc": "Helles Doppelzimmer mit Panoramablick über das Regental und die Dächer von Roding.",
+      "features": ["Nichtraucher", "Eigenes Bad", "Panoramablick"]
     },
     {
-      "name": "Doppelzimmer",
-      "tag": "Ruhe",
-      "caption": "Waldseite",
-      "desc": "Zur Waldseite hin gelegen – ideal für einen erholsamen Zwischenstopp nach der Wanderung.",
-      "features": ["ca. 28 m²", "Nichtraucher", "Familienfreundlich", "Eigenes Bad"]
-    },
-    {
-      "name": "Mehrbettzimmer",
-      "tag": "Pilgergruppen",
-      "caption": "Für Gruppen",
-      "desc": "Praktisch für Wallfahrtsgruppen, Wanderer und Radfahrer im Regental – auf Anfrage auch mehrere Zimmer als Kontingent.",
-      "features": ["Auf Anfrage", "Gruppenpreise", "Flexible Belegung"]
+      "name": "Einzelzimmer",
+      "tag": "Übernachtung",
+      "caption": "Einzelzimmer",
+      "desc": "Praktisches Einzelzimmer – ideal für Einzelreisende, Wanderer und Pilger auf der Durchreise.",
+      "features": ["Nichtraucher", "Eigenes Bad"]
     }
   ]
 }

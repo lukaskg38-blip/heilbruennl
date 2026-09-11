@@ -58,6 +58,26 @@
       });
     }
 
+    var sundayBlock = document.querySelector('[data-cms-menu="sunday"]');
+    if (sundayBlock && data.menu && data.menu.sunday) {
+      var sTitle = sundayBlock.querySelector('[data-field="title"]');
+      if (sTitle && data.menu.sunday.title) sTitle.textContent = data.menu.sunday.title;
+      var sNote = sundayBlock.querySelector('[data-field="note"]');
+      if (sNote && data.menu.sunday.note) sNote.textContent = data.menu.sunday.note;
+      fillList(sundayBlock.querySelector('[data-field="items"]'), data.menu.sunday.items, menuItemEl);
+    }
+
+    var drinksGrid = document.querySelector('[data-cms-menu="drinks"]');
+    if (drinksGrid && data.menu && data.menu.drinks && Array.isArray(data.menu.drinks.groups)) {
+      data.menu.drinks.groups.forEach(function(group, i){
+        var card = drinksGrid.querySelector('[data-drink-group="' + i + '"]');
+        if (!card) return;
+        var labelEl = card.querySelector('[data-field="label"]');
+        if (labelEl && group.label) labelEl.textContent = group.label;
+        fillList(card.querySelector('[data-field="items"]'), group.items, menuItemEl);
+      });
+    }
+
     var roomsGrid = document.querySelector('[data-cms-menu="rooms"]');
     if (roomsGrid && Array.isArray(data.rooms)) {
       data.rooms.forEach(function(room, i){
