@@ -21,49 +21,107 @@
       {
         "title": "Suppen",
         "items": [
-          { "name": "Tagessuppe", "desc": "4,00 €" },
-          { "name": "Leberspätzlesuppe", "desc": "Sonntags · 4,00 €" }
+          {
+            "name": "Tagessuppe",
+            "desc": "4,00 €"
+          },
+          {
+            "name": "Leberspätzlesuppe",
+            "desc": "Sonntags · 4,00 €"
+          }
         ]
       },
       {
         "title": "Vom Grill",
         "items": [
-          { "name": "Gegrillter Zwiebelrostbraten", "desc": "Deutsche Färse, medium, mit Kroketten & Salatbukett · 25,00 €" },
-          { "name": "220 g Rumpsteak", "desc": "Medium gegrillt, mit Pommes & Kräuterbutter · 28,00 €" },
-          { "name": "Lachsforelle", "desc": "In Mandelbutter mit Petersilienkartoffeln · 25,00 €" }
+          {
+            "name": "Gegrillter Zwiebelrostbraten",
+            "desc": "Deutsche Färse, medium, mit Kroketten & Salatbukett · 25,00 €"
+          },
+          {
+            "name": "220 g Rumpsteak",
+            "desc": "Medium gegrillt, mit Pommes & Kräuterbutter · 28,00 €"
+          },
+          {
+            "name": "Lachsforelle",
+            "desc": "In Mandelbutter mit Petersilienkartoffeln · 25,00 €"
+          }
         ]
       },
       {
         "title": "Schnitzel & mehr",
         "items": [
-          { "name": "Schnitzel „Wiener Art“", "desc": "Vom Schweinerücken, mit Pommes oder Kartoffel-Gurken-Salat · 14,00 €" },
-          { "name": "Sellerie-Schnitzel", "desc": "Hausgemacht, mit Sesampanade (vegetarisch) · 13,00 €" },
-          { "name": "Currywurst", "desc": "Mit hausgemachter Soße und Pommes · 11,00 €" }
+          {
+            "name": "Schnitzel „Wiener Art“",
+            "desc": "Vom Schweinerücken, mit Pommes oder Kartoffel-Gurken-Salat · 14,00 €"
+          },
+          {
+            "name": "Sellerie-Schnitzel",
+            "desc": "Hausgemacht, mit Sesampanade (vegetarisch) · 13,00 €"
+          },
+          {
+            "name": "Currywurst",
+            "desc": "Mit hausgemachter Soße und Pommes · 11,00 €"
+          },
+          {
+            "name": "Test",
+            "desc": "Test"
+          }
         ]
       },
       {
         "title": "Flammkuchen",
         "items": [
-          { "name": "Traditionell", "desc": "Sauerrahm, Speck, Zwiebel · 11,00 €" },
-          { "name": "Rustikal", "desc": "Sauerrahm, Käse, Salami, Schinken · 12,50 €" },
-          { "name": "Vegetarisch", "desc": "Sauerrahm, Käse, frisches Gemüse · 12,50 €" },
-          { "name": "Lachs", "desc": "Meerrettichcreme, Räucherlachs, Lauch · 14,50 €" }
+          {
+            "name": "Traditionell",
+            "desc": "Sauerrahm, Speck, Zwiebel · 11,00 €"
+          },
+          {
+            "name": "Rustikal",
+            "desc": "Sauerrahm, Käse, Salami, Schinken · 12,50 €"
+          },
+          {
+            "name": "Vegetarisch",
+            "desc": "Sauerrahm, Käse, frisches Gemüse · 12,50 €"
+          },
+          {
+            "name": "Lachs",
+            "desc": "Meerrettichcreme, Räucherlachs, Lauch · 14,50 €"
+          }
         ]
       },
       {
         "title": "Wurstsalate & Vesper",
         "items": [
-          { "name": "Bayerischer Wurstsalat", "desc": "Regensburger Knacker, rote Zwiebeln, Essiggurken · 11,00 €" },
-          { "name": "Schweizer Wurstsalat", "desc": "Mit Emmentaler · 11,50 €" },
-          { "name": "Hausgemachte Tellersulz", "desc": "Mit Schwarzbrot 11,50 € · mit Bratkartoffeln 14,50 €" }
+          {
+            "name": "Bayerischer Wurstsalat",
+            "desc": "Regensburger Knacker, rote Zwiebeln, Essiggurken · 11,00 €"
+          },
+          {
+            "name": "Schweizer Wurstsalat",
+            "desc": "Mit Emmentaler · 11,50 €"
+          },
+          {
+            "name": "Hausgemachte Tellersulz",
+            "desc": "Mit Schwarzbrot 11,50 € · mit Bratkartoffeln 14,50 €"
+          }
         ]
       },
       {
         "title": "Für die Kleinen",
         "items": [
-          { "name": "Kleines Schnitzel mit Pommes", "desc": "9,00 €" },
-          { "name": "Nuggets mit Pommes", "desc": "8,00 €" },
-          { "name": "Portion Pommes", "desc": "5,00 €" }
+          {
+            "name": "Kleines Schnitzel mit Pommes",
+            "desc": "9,00 €"
+          },
+          {
+            "name": "Nuggets mit Pommes",
+            "desc": "8,00 €"
+          },
+          {
+            "name": "Portion Pommes",
+            "desc": "5,00 €"
+          }
         ]
       }
     ],
@@ -71,10 +129,22 @@
       "title": "Sonntags: bayerischer Braten-Sonntag",
       "note": "Jeden Sonntag zusätzlich auf der Karte – die klassische bayerische Sonntagsküche.",
       "items": [
-        { "name": "Ofenfrischer Schweinebraten", "desc": "Mit Reiberknödel und Sauerkraut · 14,00 €" },
-        { "name": "Gemischter Braten", "desc": "Mit Reiberknödel, Semmelknödel und Sauerkraut · 15,00 €" },
-        { "name": "Kalbsrahmbraten", "desc": "Mit Semmelknödel und Salat · 17,00 €" },
-        { "name": "Hausgemachte Waffeln", "desc": "Mit frischen Erdbeeren und Vanilleeis · 8,90 €" }
+        {
+          "name": "Ofenfrischer Schweinebraten",
+          "desc": "Mit Reiberknödel und Sauerkraut · 14,00 €"
+        },
+        {
+          "name": "Gemischter Braten",
+          "desc": "Mit Reiberknödel, Semmelknödel und Sauerkraut · 15,00 €"
+        },
+        {
+          "name": "Kalbsrahmbraten",
+          "desc": "Mit Semmelknödel und Salat · 17,00 €"
+        },
+        {
+          "name": "Hausgemachte Waffeln",
+          "desc": "Mit frischen Erdbeeren und Vanilleeis · 8,90 €"
+        }
       ]
     },
     "drinks": {
@@ -83,30 +153,57 @@
         {
           "label": "Alkoholfreie Getränke",
           "items": [
-            { "name": "Cola, Cola light, Spezi", "desc": "0,2l 3,30 € · 0,5l 4,30 €" },
-            { "name": "Limonaden & Saftschorlen", "desc": "0,2l ab 2,80 € · 0,5l ab 3,80 €" },
-            { "name": "Wasser (Grapos Quell)", "desc": "0,2l 2,50 € · 0,5l 3,50 €" }
+            {
+              "name": "Cola, Cola light, Spezi",
+              "desc": "0,2l 3,30 € · 0,5l 4,30 €"
+            },
+            {
+              "name": "Limonaden & Saftschorlen",
+              "desc": "0,2l ab 2,80 € · 0,5l ab 3,80 €"
+            },
+            {
+              "name": "Wasser (Grapos Quell)",
+              "desc": "0,2l 2,50 € · 0,5l 3,50 €"
+            }
           ]
         },
         {
           "label": "Bier vom Fass (Jacob Bräu)",
           "items": [
-            { "name": "Jacob Hell, Radler, Pils", "desc": "0,5l 3,80 €" },
-            { "name": "Jacob Weizen (hell, leicht, dunkel, alkoholfrei)", "desc": "0,5l 4,20 €" }
+            {
+              "name": "Jacob Hell, Radler, Pils",
+              "desc": "0,5l 3,80 €"
+            },
+            {
+              "name": "Jacob Weizen (hell, leicht, dunkel, alkoholfrei)",
+              "desc": "0,5l 4,20 €"
+            }
           ]
         },
         {
           "label": "Wein & Aperitif",
           "items": [
-            { "name": "Silvaner, Bacchus, Merlot (0,2l)", "desc": "6,90 €" },
-            { "name": "Aperol Spritz, Hugo, Weinschorle", "desc": "6,90 €" }
+            {
+              "name": "Silvaner, Bacchus, Merlot (0,2l)",
+              "desc": "6,90 €"
+            },
+            {
+              "name": "Aperol Spritz, Hugo, Weinschorle",
+              "desc": "6,90 €"
+            }
           ]
         },
         {
           "label": "Heißgetränke",
           "items": [
-            { "name": "Kaffee, Espresso, Cappuccino, Latte Macchiato", "desc": "ab 3,00 €" },
-            { "name": "Tee verschiedene Sorten", "desc": "3,00 €" }
+            {
+              "name": "Kaffee, Espresso, Cappuccino, Latte Macchiato",
+              "desc": "ab 3,00 €"
+            },
+            {
+              "name": "Tee verschiedene Sorten",
+              "desc": "3,00 €"
+            }
           ]
         }
       ]
@@ -118,14 +215,21 @@
       "tag": "Übernachtung",
       "caption": "Doppelzimmer",
       "desc": "Helles Doppelzimmer mit Panoramablick über das Regental und die Dächer von Roding.",
-      "features": ["Nichtraucher", "Eigenes Bad", "Panoramablick"]
+      "features": [
+        "Nichtraucher",
+        "Eigenes Bad",
+        "Panoramablick"
+      ]
     },
     {
       "name": "Einzelzimmer",
       "tag": "Übernachtung",
       "caption": "Einzelzimmer",
       "desc": "Praktisches Einzelzimmer – ideal für Einzelreisende, Wanderer und Pilger auf der Durchreise.",
-      "features": ["Nichtraucher", "Eigenes Bad"]
+      "features": [
+        "Nichtraucher",
+        "Eigenes Bad"
+      ]
     }
   ]
 }
